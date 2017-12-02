@@ -22,7 +22,7 @@ var State = "PA";
 var zipCode = "15204";
 
 // output 
-console.log("Hello World, my name is Heather");
+console.log('\n');
 
 
 // end program 
