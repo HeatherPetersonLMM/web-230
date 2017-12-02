@@ -1,9 +1,9 @@
 /*
 ============================================
 ; Title:  Assignment 1.5
-; Author: Heather Peterson
-; Date:   02 December 2017
-; Modified By: Heather Peterson
+; Author: Albert Einstein
+; Date:   25 June 2017
+; Modified By: <Your name>
 ; Description: This program demonstrates the
 ;   use of JavaScript types, values, and 
 ;   and variables in an application.
@@ -17,24 +17,22 @@
     functionality into a function and place it in a separate file.
 */
 
-var myFirstName = "Heather";
-var myLastName = "Peterson";
+var myFirstName = "Albert";
+var myLastName = "Einstein";
 var todaysDate = new Date().toLocaleDateString();
 var assignmentNum = "Assignment 1.5";
 
 var programHeader = "\n" + myFirstName + " " + myLastName + "\n"
     + assignmentNum + "\nDate: " + todaysDate;
 
-console.log(programHeader);
-console.log("\n"); 
+   
 
 // start of program - your code goes below this line
+console.log(programHeader);
 
-console.log(FirstName,LastName);
-console.log(Age);
-console.log(todaysDate);
-console.log(assignmentNum)
-console.log(programHeader)
+
+
+
 
 
 // end of program 
