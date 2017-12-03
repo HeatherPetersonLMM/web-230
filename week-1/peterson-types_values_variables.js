@@ -31,11 +31,23 @@ console.log("\n");
 // start of program - your code goes below this line
 
 
-var firstName1 = "Bear";
-var firstName2 = "Lily";
-var firstName3 = "Russ";
-var firstName4 = "Lucy";
-var firstNsme5 = "Bob";
+var firstName1 = "First Name: Bear";
+var firstName2 = "First Name: Lily";
+var firstName3 = "First Name: Russ";
+var firstName4 = "First Name: Lucy";
+var firstName5 = "First Name: Bob";
+
+var lastName1 = "Last Name: Bear";
+var lastName2 = "Last Name: Lily";
+var lastName3 = "Last Name: Russ";
+var lastName4 = "Last Name: Lucy";
+var lastName5 = "Last Name: Bob";
+
+var Address1 = "1313 Penn Hill Street Hopkins, MN";
+var Address2 = "342 Smith Way Beaver, PA";
+var Address3 = "4817 Jacksonville Avenue Orlando, FL";
+var Address4 = "99 Perry Lane Queens, NY";
+var Address5 = "2630 Riverview Street Las Vegas, NV";
 
 
 // end of program 
