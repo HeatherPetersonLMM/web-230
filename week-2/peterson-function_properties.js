@@ -26,5 +26,5 @@ function Heather() {
 
 // output 
 console.log(Heather()); 
-
+console.log(header.display("Heather", "Peterson", "Exercise 2.3")); 
 // end program 
