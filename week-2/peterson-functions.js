@@ -1,4 +1,4 @@
-var header = require('../header.js'); 
+var programHeader = require('../header.js'); 
 
 // start program
 
@@ -13,11 +13,12 @@ var header = require('../header.js');
     
     I am <parsed int> years old and my savings account goal is <parsed float value> dollars.
 */ 
-
+x = "Heather" + " ";
+y = "Peterson";
 
 // function 
-function fullName() {
-    return Heather.Peterson
+function fullName(x,y) {
+    return x + y;
 }
 
 function dateWriter() {
@@ -38,7 +39,7 @@ function convertToFloat() {
 
 
 // output 
-console.log(fullName()); 
+console.log("Hello my name is" + " " + fullName(x,y) + "!"); 
 console.log(programHeader);
 console.log("\n");
 // end program 
