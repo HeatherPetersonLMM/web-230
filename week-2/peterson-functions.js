@@ -15,15 +15,28 @@ var programHeader = require('../header.js');
 */ 
 x = "Heather" + " ";
 y = "Peterson";
+today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1;
+var yyyy = today.getFullYear();
 
 // function 
 function fullName(x,y) {
     return x + y;
 }
 
-function dateWriter() {
-
-}
+function dateWriter(today) {
+    if (dd<10) {
+        dd = '0' + dd
+      }
+      
+      if (mm<10) {
+        mm = '0' + mm
+      }
+      
+      today = yyyy + '-' + mm + '-' + dd;
+      var date = today;
+    }
 
 function formatNumber() {
 
@@ -40,6 +53,8 @@ function convertToFloat() {
 
 // output 
 console.log("Hello my name is" + " " + fullName(x,y) + "!"); 
+console.log("Today's date is" + " " + today + " " + "and the current temperature is");
 console.log(programHeader);
 console.log("\n");
+
 // end program 
