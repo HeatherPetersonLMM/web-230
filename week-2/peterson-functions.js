@@ -21,6 +21,7 @@ var mm = today.getMonth()+1;
 var yyyy = today.getFullYear();
 var num = 27;
 n = num.toFixed(1);
+var a = 31;
 
 // function 
 function fullName(x,y) {
@@ -46,8 +47,8 @@ function formatNumber(num,n) {
 
 }
 
-function convertToInt() {
-
+function convertToInt(a) {
+    String(a);
 }
 
 function convertToFloat() {
@@ -57,7 +58,8 @@ function convertToFloat() {
 
 // output 
 console.log("Hello my name is" + " " + fullName(x,y) + "!"); 
-console.log("Today's date is" + " " + today.toDateString() + " " + "and the current temperature is" + " " + formatNumber(num,n));
+console.log("Today's date is" + " " + today.toDateString() + " " + "and the current temperature is" + " " + formatNumber(num,n) + ".");
+console.log("I am" + " " + a + " " + "years old and my savings account goal is");
 console.log(programHeader);
 console.log("\n");
 
