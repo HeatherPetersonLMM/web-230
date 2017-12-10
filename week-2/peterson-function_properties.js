@@ -26,6 +26,6 @@ function Heather() {
 
 // output 
 console.log(Heather()); 
-console.log(programHeader);
+console.log(header);
 console.log("\n");
 // end program 
