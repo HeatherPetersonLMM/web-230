@@ -7,19 +7,27 @@
 ; Description: Displays a formatted header
 ;===========================================
 */ 
+var myFirstName = "Heather";
+var myLastName = "Peterson";
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1;
+var yyyy = today.getFullYear();
 
-/*
-    This function accepts four parameters: 
-        f = students first name
-        l = students last name 
-        a = assignment number
-    and displays the results.
-*/
-
-module.exports = {
-    display: function(f, l, a) {
-        var msg = "\n" + f + " " + l + "\n" 
-            + a + "\nDate: " + new Date().toLocaleDateString(); 
-        return msg; 
-    }
-};
+if (dd<10) {
+    dd = '0' + dd
+  }
+  
+  if (mm<10) {
+    mm = '0' + mm
+  }
+  
+  today = mm + '-' + dd + '-' + yyyy
+  var assignmentNum = "Assignment 2.4";
+  
+  var programHeader = "\n" + myFirstName + " " + myLastName + "\n"
+      + assignmentNum + "\nDate: " + today;
+  
+  console.log(programHeader);
+  console.log("\n"); 
+  
