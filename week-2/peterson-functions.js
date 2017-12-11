@@ -22,6 +22,7 @@ var yyyy = today.getFullYear();
 var num = 27;
 n = num.toFixed(1);
 var a = 31;
+var b = parseFloat(10000000000000);
 
 // function 
 function fullName(x,y) {
@@ -43,7 +44,7 @@ function dateWriter(today) {
  }
 
 function formatNumber(num,n) {
-    return num + n;
+    return n;
 
 }
 
@@ -51,15 +52,15 @@ function convertToInt(a) {
     String(a);
 }
 
-function convertToFloat() {
-
+function convertToFloat(b) {
+    String(b);
 }
 
 
 // output 
 console.log("Hello my name is" + " " + fullName(x,y) + "!"); 
 console.log("Today's date is" + " " + today.toDateString() + " " + "and the current temperature is" + " " + formatNumber(num,n) + ".");
-console.log("I am" + " " + a + " " + "years old and my savings account goal is");
+console.log("I am" + " " + a + " " + "years old and my savings account goal is" + " $" + b + " " + "dollars.");
 console.log(programHeader);
 console.log("\n");
 
