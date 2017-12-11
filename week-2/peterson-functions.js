@@ -41,7 +41,7 @@ function dateWriter(today) {
       today = yyyy + '-' + mm + '-' + dd;
       var date = today;
 
- }
+}
 
 function formatNumber(num,n) {
     return n;
@@ -58,10 +58,10 @@ function convertToFloat(b) {
 
 
 // output 
+
 console.log("Hello my name is" + " " + fullName(x,y) + "!"); 
 console.log("Today's date is" + " " + today.toDateString() + " " + "and the current temperature is" + " " + formatNumber(num,n) + ".");
 console.log("I am" + " " + a + " " + "years old and my savings account goal is" + " $" + b + " " + "dollars.");
 console.log(programHeader);
-console.log("\n");
 
 // end program 
