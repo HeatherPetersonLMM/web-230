@@ -25,13 +25,14 @@ function Heather() {
     return Heather.Peterson
 }
 
-var A = 2;
-var B = 3;
+
 function match() {
-    if(2 == 3) {
-        return false;
-    } else {
+    var A = 2;
+    var B = 3;
+    if(A == B) {
         return true;
+    } else {
+        return false;
     }
 }
 
