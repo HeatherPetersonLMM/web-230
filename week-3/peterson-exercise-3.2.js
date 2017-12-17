@@ -37,25 +37,29 @@ function match() {
 }
 
 function logMismatch() {
+    var C = 2;
+    var D = 2;
+    var msg = '';
+
+    if(C == D) {
+        return msg = 'This is a match';
+    } else {
+        return msg = 'This is not a match';
+    }
 }
 
 function logMatch() {
 }
 
-// six (6) test variables 
-
-
-
 // Output from the match() function...
 console.log(Heather()); 
 console.log(header);
 console.log("\n");
-console.log(match("A", "B"));
-console.log(match(2, 2)); 
+//console.log(match());
+
+console.log(match("A","B"));
+console.log(logMismatch("msg"));
  
-
-
-
 
 // Conditional "if...else" statements. Include checks for all six (6) test variables 
 
