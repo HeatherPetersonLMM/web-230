@@ -18,7 +18,14 @@ var header = require('../header.js');
     Bike and Bike do match!
     Four and Three do not match!
 */ 
-
+// variables
+var A = 'Truck';
+var B = 'Car';
+var C = 'Bike';
+var D = 'Bike';
+var E = 'Four';
+var F = 'Three';
+var choice = 'Truck';
 
 // functions 
 function Heather() {
@@ -27,8 +34,8 @@ function Heather() {
 
 
 function match() {
-    var A = 2;
-    var B = 3;
+    //var A = 2;
+    //var B = 3;
     if(A == B) {
         return true;
     } else {
@@ -37,11 +44,11 @@ function match() {
 }
 
 function logMismatch() {
-    var C = 2;
-    var D = 3;
+    //var A = 2;
+    //var B = 3;
     var msg = '';
 
-    if(C != D) {
+    if(A != B) {
         return msg = 'This is not a match.';
     } else {
         return msg = 'This is a match.';
@@ -49,11 +56,11 @@ function logMismatch() {
 }
 
 function logMatch() {
-    var E = 2;
-    var F = 2;
+    //var A = 2;
+    //var B = 2;
     var msg2 = '';
 
-    if(E == F) {
+    if(A == B) {
         return msg2 = 'This is a match.';
     } else {
         return msg2 = 'This is not a match.';
@@ -64,7 +71,6 @@ function logMatch() {
 console.log(Heather()); 
 console.log(header);
 console.log("\n");
-//console.log(match());
 
 console.log(match("A","B"));
 console.log(logMismatch("msg"));
@@ -73,5 +79,18 @@ console.log(logMatch("msg2"));
 
 // Conditional "if...else" statements. Include checks for all six (6) test variables 
 
+if (choice == "A") {
+    console.log("A");
+} else if (choice == "B") {
+    console.log("B");
+
+} else if (choice == "C") {
+    console.log("Winner Winner!");
+
+} else if (choice == "D") {
+    console.log("D");
+} else {
+    console.log("Invalid choice");
+}
 
 // end program 
