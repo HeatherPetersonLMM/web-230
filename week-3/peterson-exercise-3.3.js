@@ -4,14 +4,11 @@ var header = require('../header.js');
 
 /*
     Expected output:
-
     FirstName LastName
     Exercise 3.3
     Today's Date
-
     // Expected output
     The enter key was pressed 
-
 */ 
 
 // Multiway branch of if statements (replace with a switch statement)
@@ -30,4 +27,4 @@ if (eventKeyCode == 13) {
 }
 
 
-// end program 
+// end program
