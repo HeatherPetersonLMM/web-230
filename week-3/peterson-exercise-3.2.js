@@ -67,7 +67,7 @@ var name;
 quantity = 300;
 code = 1001;
 price = 20.99;
-total = quantity + price;
+total = quantity * price;
 name = code = 'Hammer';
 
 
