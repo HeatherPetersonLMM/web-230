@@ -38,7 +38,13 @@ function logMismatch(Truck,Car) {
     }
 }
 
-function logMatch() {
+function logMatch(Bike,Bike) {
+    if (Bike === Bike) {
+    return 'Bike and Bike do match!';
+    }
+    else {
+    return 'This is not a match.';
+    }
 }
 
 // six (6) test variables 
@@ -49,7 +55,7 @@ function logMatch() {
 console.log(match("A", "B"));
 console.log(match(2, 2)); 
 console.log(logMismatch("Truck", "Car"));
-
+console.log(logMatch("Bike","Bike"));
 
 // Conditional "if...else" statements. Include checks for all six (6) test variables 
 
