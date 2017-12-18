@@ -29,7 +29,13 @@ function match(A,B) {
     }
 }
 
-function logMismatch() {
+function logMismatch(Truck,Car) {
+    if (Truck !== Truck) {
+    return 'This is a match.';
+    }
+    else {
+    return 'Truck and Car do not match!';
+    }
 }
 
 function logMatch() {
@@ -42,6 +48,7 @@ function logMatch() {
 // Output from the match() function... 
 console.log(match("A", "B"));
 console.log(match(2, 2)); 
+console.log(logMismatch("Truck", "Car"));
 
 
 // Conditional "if...else" statements. Include checks for all six (6) test variables 
