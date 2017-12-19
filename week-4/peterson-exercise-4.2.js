@@ -25,9 +25,13 @@ var header = require('../header.js');
 
 // start program
 var fruits = ["Apple", "Banana", "Orange", "Mango", "Pear"].toString();
+var i = fruits;
 
 // function
-function getFruit() {
+function getFruits() {
+    for (var fruits = 0; fruits < fruits.length; fruits++) {
+        console.log(fruits[i]);
+    }
 
 }
 
