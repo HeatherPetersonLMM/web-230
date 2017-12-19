@@ -8,3 +8,32 @@ var header = require('../header.js');
 ; Description: Exercise 4.2 - Arrays
 ;===========================================
 */ 
+
+/*
+ Expected output:
+
+ FirstName LastName
+ Exercise 4.2
+ Today's Date
+
+ Apple
+ Orange
+ Banana
+ Mango
+ Pear
+ */
+
+// start program
+var fruits = ["Apple", "Banana", "Orange", "Mango", "Pear"].toString();
+
+// function
+function getFruit() {
+
+}
+
+// Output from the getFruit() function
+console.log(fruits);
+
+
+
+// end program
