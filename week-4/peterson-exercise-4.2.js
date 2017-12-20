@@ -11,11 +11,9 @@ var header = require('../header.js');
 
 /*
  Expected output:
-
  FirstName LastName
  Exercise 4.2
  Today's Date
-
  Apple
  Orange
  Banana
@@ -27,8 +25,8 @@ var header = require('../header.js');
 
 // function
     function getFruit(){
-        var fruits = ["Apple", "Banana", "Orange", "Pear", "Pineapple", ]
-        for(var i = 0; i < fruits.length; i++){
+        var fruits = ["Apple", "Banana", "Orange", "Pear", "Pineapple", ]  // Array of 5 elements
+        for(var i = 0; i < fruits.length; i++){   // Created loop for listing
           console.log(fruits[i]);
         }
       }
