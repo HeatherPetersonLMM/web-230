@@ -25,18 +25,16 @@ var header = require('../header.js');
 
 // start program
 
-var fruits = ["Apple", "Banana", "Orange", "Mango", "Pear"].toString();
-var i = fruits; // calls all the fruit
-
 // function
-function getFruits() {
-    for (var fruits = 0; fruits < fruits.length; fruits++) { // creates loop
-        console.log(fruits[i]);
-    }
+    function getFruit(){
+        var fruits = ["Apple", "Banana", "Orange", "Pear", "Pineapple", ]
+        for(var i = 0; i < fruits.length; i++){
+          console.log(fruits[i]);
+        }
+      }
 
-}
 // Output from the getFruit() function
-console.log(fruits[i]);
+    console.log(getFruit());
 
 
 
