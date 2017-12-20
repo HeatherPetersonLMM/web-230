@@ -35,9 +35,8 @@ function getFruits() {
     }
 
 }
-
 // Output from the getFruit() function
-console.log(fruits);
+console.log(fruits[i]);
 
 
 
