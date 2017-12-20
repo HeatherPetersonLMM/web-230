@@ -1,11 +1,12 @@
 var header = require('../header.js'); 
+
 /*
 ============================================
 ; Title:  Program Header
 ; Author: Professor Krasso 
 ; Date:   19 December 2017
 ; Modified By: Heather Peterson
-; Description: Exercise 4.3 - Filtering
+; Description: Exercise 4.3 - Filtering Arrays
 ;===========================================
 */ 
 
@@ -32,18 +33,19 @@ var header = require('../header.js');
  */
 
 // start program
-var vehicles = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"].toString();
-
 
 
 // function
 function getValue(arr, val) {
-    
+    var vehicles = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"]  // Array of 5 elements
+    for(var i = 0; i < vehicles.length; i++){   // Created loop for listing
+        console.log(vehicles[i]);
+    }
     }
     
     
     // Output
-    
+    console.log(getValue());
     
     
     // end program
