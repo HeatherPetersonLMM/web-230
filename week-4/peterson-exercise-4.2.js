@@ -24,12 +24,13 @@ var header = require('../header.js');
  */
 
 // start program
+
 var fruits = ["Apple", "Banana", "Orange", "Mango", "Pear"].toString();
-var i = fruits;
+var i = fruits; // calls all the fruit
 
 // function
 function getFruits() {
-    for (var fruits = 0; fruits < fruits.length; fruits++) {
+    for (var fruits = 0; fruits < fruits.length; fruits++) { // creates loop
         console.log(fruits[i]);
     }
 
