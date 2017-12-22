@@ -25,7 +25,6 @@ var header = require('../header.js');
 
 // function
     function getFruit(){
-        var fruits;
         fruits = ["Apple", "Banana", "Orange", "Pear", "Pineapple" ] // Array of 5 elements
         for(var i = 0; i < fruits.length; i++) {   // Created loop for listing
           console.log(fruits[i]);
@@ -33,4 +32,4 @@ var header = require('../header.js');
     }
 
 // Output from the getFruit() function
-return (getFruit());
+getFruit();
