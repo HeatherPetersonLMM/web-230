@@ -39,6 +39,7 @@ var header = require('../header.js');
 function getValue(arr, val) {
     var vehicles = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"] ; // Array of 5 elements
     for (var i = 0; i < vehicles.length; i++){   // Created loop for listing
+        if (!vehicles[i]) continue;
         console.log(vehicles[i]);
     }
         console.log("");  //new line
@@ -55,7 +56,6 @@ function getValue(arr, val) {
 
     }
 
-    
     
     // Output
     return (getValue());
