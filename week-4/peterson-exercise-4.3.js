@@ -53,7 +53,7 @@ function getValue(arr, val) {
     
     
     // Output
-    console.log(getValue());
+    return (getValue());
     
     
     
