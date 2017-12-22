@@ -1,6 +1,19 @@
 var header = require('../header.js');
 
 /*
+============================================
+; Title:  Program Header
+; Author: Professor Krasso 
+; Date:   22 December 2017
+; Modified By: Heather Peterson
+; Description: Assignment 4.4 - Predicates with USA States
+;===========================================
+*/ 
+
+
+
+
+/*
  Expected output:
 
  FirstName LastName
@@ -30,13 +43,37 @@ var header = require('../header.js');
 
 
 // function
-function getValue(x, val) {
+function usaStates(x, val) {
+    x = states;
+    val = w
+        var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;
+        for (var i = 0; i < states.length; i++){   // Created loop for listing
+            if (!states[i]) continue;  // tells loop to continue if not equal to returned elements
+            console.log(states[i]);
+}
+
+            console.log("");  //new line
+            
+        var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;
+        states.sort();
+        for (var i = 0; i < states.length; i++){   // Created loop for listing
+            if (!states[i]) continue;  // tells loop to continue if not equal to returned elements
+            console.log(states[i]);
+}
+            console.log("");  //new line
+
+        var w = states[2]; {  //returns the third element in array elements
+            console.log(w);  
+}
+
+
 
 }
 
 
-// Output
 
+// Output
+return (usaStates());
 
 
 
