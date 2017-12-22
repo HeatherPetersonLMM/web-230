@@ -37,6 +37,8 @@ var header = require('../header.js');
 
 // function
 function getValue(arr, val) {
+    arr = vehicles;
+    val = m, b;
     var vehicles = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"] ; // Array of 5 elements
     for (var i = 0; i < vehicles.length; i++){   // Created loop for listing
         if (!vehicles[i]) continue;  // tells loop to continue if not equal to returned elements
