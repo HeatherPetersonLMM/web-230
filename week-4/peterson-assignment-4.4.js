@@ -46,16 +46,16 @@ var header = require('../header.js');
 function usaStates(x, val) {
     x = states;
     val = w
-        var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;
+        var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;  // array elements of 5 states
         for (var i = 0; i < states.length; i++){   // Created loop for listing
             if (!states[i]) continue;  // tells loop to continue if not equal to returned elements
             console.log(states[i]);
 }
 
             console.log("");  //new line
-            
-        var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;
-        states.sort();
+
+        var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;  //array elements of 5 states
+        states.sort();  //sorts elements alphabetically
         for (var i = 0; i < states.length; i++){   // Created loop for listing
             if (!states[i]) continue;  // tells loop to continue if not equal to returned elements
             console.log(states[i]);
