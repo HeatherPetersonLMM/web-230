@@ -41,10 +41,15 @@ function getValue(arr, val) {
     for (var i = 0; i < vehicles.length; i++){   // Created loop for listing
         console.log(vehicles[i]);
     }
+        console.log("");  //new line
+
     var m = vehicles[2]; {  //returns the third element in array elements
-        console.log(m);
+        console.log(m);  
     }
-    var b = vehicles[4]; {  //returns the third element in array elements
+
+        console.log("");   //new line
+
+    var b = vehicles[4]; {  //returns the fifth element in array elements
         console.log(b);
     }
 
