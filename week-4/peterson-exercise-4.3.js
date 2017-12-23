@@ -12,24 +12,19 @@ var header = require('../header.js');
 
 /*
  Expected output:
-
  FirstName LastName
  Exercise 4.3
  Today's Date
-
  -- DISPLAYING ARRAY ITEMS --
  Car
  Truck
  Motorcycle
  Airplane
  Bus
-
  -- SELECTED VALUE --
  Motorcycle
-
  -- SELECTED VALUE --
  Bus
-
  */
 
 // start program
@@ -37,8 +32,6 @@ var header = require('../header.js');
 
 // function
 function getValue(arr, val) {
-    arr = vehicles;
-    val = m, b;
     var vehicles = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"] ; // Array of 5 elements
     for (var i = 0; i < vehicles.length; i++){   // Created loop for listing
         if (!vehicles[i]) continue;  // tells loop to continue if not equal to returned elements
@@ -60,7 +53,7 @@ function getValue(arr, val) {
 
     
     // Output
-    return (getValue());
+    getValue();
     
     
     
