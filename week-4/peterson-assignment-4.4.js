@@ -40,13 +40,12 @@ var header = require('../header.js');
  */
 
 // start program
-
+var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;  // array elements of 5 states
 
 // function
-function usaStates(x, val) {
-    x = states;
-    val = w
-        var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;  // array elements of 5 states
+function usaStates(x) {
+    return x > 6;
+}
         for (var i = 0; i < states.length; i++){   // Created loop for listing
             if (!states[i]) continue;  // tells loop to continue if not equal to returned elements
             console.log(states[i]);
@@ -68,12 +67,9 @@ function usaStates(x, val) {
 
 
 
-}
-
-
 
 // Output
-return (usaStates());
+usaStates();
 
 
 
