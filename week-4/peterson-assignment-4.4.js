@@ -62,13 +62,12 @@ function usaStates(x) {
             console.log(states[i]);
 }
             console.log("");  //new line
-<<<<<<< HEAD
+
             console.log(" --Selected value-- ");
         var j = states.filter(usaStates); 
-=======
 
         var j = states.filter(usaStates); // filter used to log var x
->>>>>>> 6c9f94e2ebff8581115ffcfc905901fa60eb29be
+
 
 
 
@@ -78,6 +77,3 @@ function usaStates(x) {
 console.log(x);
 return usaStates(x,j);
 
-
-
-// end program
