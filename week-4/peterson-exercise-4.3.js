@@ -30,30 +30,21 @@ var header = require('../header.js');
 // start program
 var vehicles = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"] ; // Array of 5 elements
 
-// function
-function getValue(arr, val) {
-    for (var i = 0; i < vehicles.length; i++){   // Created loop for listing
-        if (!vehicles[i]) continue;  // tells loop to continue if not equal to returned elements
-        console.log(vehicles[i]);
-    }
-        console.log("");  //new line
 
-    var m = vehicles[2]; {  //returns the third element in array elements
-        console.log(m);  
-    }
+// function that accepts two arguments, an index placeholder and a filterable value
+function getVehicles(x, value)
+{
+    if (x == value)
+        return value;
+}
 
-        console.log("");   //new line
 
-    var b = vehicles[4]; {  //returns the fifth element in array elements
-        console.log(b);
-    }
 
-    }
+// output
 
-    
-    // Output
-    getValue();
-    
-    
-    
-    // end program
+
+console.log(" --Selected value-- ");
+// output the results using the console.log() function
+console.log (vehicles.filter(function (x){
+            return getVehicles(x, "Motorcycle")})[0]);
+
