@@ -62,7 +62,7 @@ function usaStates(x) {
 }
             console.log("");  //new line
 
-        var j = states.filter(usaStates); 
+        var j = states.filter(usaStates); // filter used to log var x
 
 
 
