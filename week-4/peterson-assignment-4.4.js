@@ -41,6 +41,7 @@ var header = require('../header.js');
 
 // start program
 var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;  // array elements of 5 states
+var x = states[2];
 
 // function
 function usaStates(x) {
@@ -61,15 +62,15 @@ function usaStates(x) {
 }
             console.log("");  //new line
 
-        var w = states[2]; {  //returns the third element in array elements
-            console.log(w);  
-}
+        var j = states.filter(usaStates); 
+
 
 
 
 
 // Output
-usaStates();
+console.log(x);
+return usaStates(x,j);
 
 
 
