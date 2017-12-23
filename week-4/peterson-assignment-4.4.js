@@ -47,13 +47,14 @@ var x = states[2];
 function usaStates(x) {
     return x > 6;
 }
+            console.log(" --Original Array-- ");
         for (var i = 0; i < states.length; i++){   // Created loop for listing
             if (!states[i]) continue;  // tells loop to continue if not equal to returned elements
             console.log(states[i]);
 }
 
             console.log("");  //new line
-
+            console.log(" --Sorted Array-- ");
         var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"] ;  //array elements of 5 states
         states.sort();  //sorts elements alphabetically
         for (var i = 0; i < states.length; i++){   // Created loop for listing
@@ -61,7 +62,7 @@ function usaStates(x) {
             console.log(states[i]);
 }
             console.log("");  //new line
-
+            console.log(" --Selected value-- ");
         var j = states.filter(usaStates); 
 
 
