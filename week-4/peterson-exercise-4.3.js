@@ -28,23 +28,29 @@ var header = require('../header.js');
  */
 
 // start program
+console.log(" --Displaying Array Items-- ");
 var vehicles = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"] ; // Array of 5 elements
+for(var i = 0; i < vehicles.length; i++) {   // Created loop for listing
+    console.log(vehicles[i]);
+}
 
+// function
 
-// function that accepts two arguments, an index placeholder and a filterable value
-function getVehicles(x, value)
-{
+function getVehicles(x, value, y) { //calls the function objects x,y
+
     if (x == value)
+        return value;
+    else (y == value)
         return value;
 }
 
 
 
-// output
-
-
+// output the results using the console.log() function x value
 console.log(" --Selected value-- ");
-// output the results using the console.log() function
 console.log (vehicles.filter(function (x){
-            return getVehicles(x, "Motorcycle")})[0]);
-
+    return getVehicles(x, "Motorcycle")})[2]);
+// output the results using the console.log() function y value
+console.log(" --Selected value-- ");
+console.log (vehicles.filter(function (y){
+    return getVehicles(y, "Bus")})[4]);
