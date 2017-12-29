@@ -1,5 +1,4 @@
 var header = require('../header.js'); 
-
 /*
 ============================================
 ; Title:  Program Header
@@ -30,23 +29,19 @@ var header = require('../header.js');
 */ 
 
 // functions 
-
-function misMatch(c,d) {
-    var c = 1;
-    var d = 2;
-    if (c === d) {
+console.log("// output from the match() function");
+function misMatch(a,b) {
+    if (a > b) {
         return true;
-        console.log(match());
+        console.log(misMatch());
         } else {
         return false;
-        console.log(misMatch());
+        console.log(match());
         }
     
 }
 
 function match(a,b) {
-    var a = 1;
-    var b = 1;
     if (a === b) {
         return true;
         console.log(match());
