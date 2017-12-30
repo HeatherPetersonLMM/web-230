@@ -67,12 +67,24 @@ function matchVeh() {
     console.log("");
     console.log("// output from the if...else blocks");
 if (t === c) {
-    console.log("True");  // console log true
+    return true;  // console log true
        } else {
     console.log("Truck and Car do not match!");  //else if, console log false
        }
-    }
 
+if (b === i) {
+    console.log("Bike and Bike do match!");  // console log true
+       } else {
+    return false;  //else if, console log false
+       }
+
+if (f === h) {
+    return true;  // console log true
+       } else {
+    console.log("Four and Three do not match!");  //else if, console log false
+       }
+}
+    
 
 // Output from the match() function... 
 console.log(match("a","b"));
