@@ -63,25 +63,27 @@ var i = "Bike";
 var f = "Four";
 var h = "Three";
 
+
+// Conditional "if...else" statements..
 function matchVeh() {
     console.log("");
     console.log("// output from the if...else blocks");
-if (t === c) {
-    return true;  // console log true
+if (t === c) {  // if truck is equal to car
+    return true;  // return true
        } else {
-    console.log("Truck and Car do not match!");  //else if, console log false
+    console.log("Truck and Car do not match!");  //else if, console log mismatch
        }
 
-if (b === i) {
-    console.log("Bike and Bike do match!");  // console log true
+if (b === i) {  //if bike is equal to bike
+    console.log("Bike and Bike do match!");  // console log a match
        } else {
-    return false;  //else if, console log false
+    return false;  //else if, return false
        }
 
-if (f === h) {
-    return true;  // console log true
+if (f === h) {  //if Four is only equal to Three
+    return true;  // return true
        } else {
-    console.log("Four and Three do not match!");  //else if, console log false
+    console.log("Four and Three do not match!");  //else if, console log mismatch
        }
 }
     
@@ -90,6 +92,3 @@ if (f === h) {
 console.log(match("a","b"));
 console.log(match(2,2));
 matchVeh();
-
-
-// Conditional "if...else" statements..
