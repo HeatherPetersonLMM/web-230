@@ -38,11 +38,11 @@ function match(a,b) {  //calls the match functions a and b
         return "False"; //output will display false
         }
 
-function logMismatch() {  //calls the logMismatch functions a and b
+function logMismatch(a,b) {  //calls the logMismatch functions a and b
     if (a !== b) {   //if a is not equal to b
-        console.log("False");  // console log false
+        console.log("They do not match!");  // console log false
         } else {
-        console.log("True")  //else if, console log true
+        console.log("They match!")  //else if, console log true
         }
     }
 
@@ -63,19 +63,21 @@ var i = "Bike";
 var f = "Four";
 var h = "Three";
 
-function matchVeh(t,c) {
+function matchVeh() {
     console.log("");
     console.log("// output from the if...else blocks");
 if (t === c) {
-    return true;
-    console.log(match(t,c));
-    } else {
-    return "Truck and Car do not match!";
-    console.log(misMatch(t,c));
-}
-}
+    console.log("True");  // console log true
+       } else {
+    console.log("Truck and Car do not match!");  //else if, console log false
+       }
+    }
+
 
 // Output from the match() function... 
 console.log(match("a","b"));
 console.log(match(2,2));
-console.log(matchVeh(t,c));
+matchVeh();
+
+
+// Conditional "if...else" statements..
