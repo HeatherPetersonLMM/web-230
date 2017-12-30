@@ -30,25 +30,21 @@ var header = require('../header.js');
 
 // functions 
 console.log("// output from the match() function");
-function misMatch(a,b) {  //calls the mismatch functions a and b
-    if (a > b) {  
-        return true;  //if a is greater than b, return true
-        console.log(misMatch());
-        } else {
-        return false;  //else if, return false
-        console.log(match());
-        }
-    
-}
 
 function match(a,b) {  //calls the match functions a and b
-    if (a === b) {
-        return true;  //if a is equal to b, return true
-        console.log(match());
+    if (a === b) {  //if a is only equal to b
+        return "True";  //ouput will display true
         } else {
-        return false;  //else if, return false
-        console.log(misMatch());
+        return "False"; //output will display false
         }
+
+function logMismatch() {  //calls the logMismatch functions a and b
+    if (a !== b) {   //if a is not equal to b
+        console.log("False");
+        } else {
+        console.log("True")  //else if, return true
+        }
+    }
 }
 
 // six (6) test variables
@@ -72,7 +68,6 @@ if (t === c) {
 }
 
 // Output from the match() function... 
-console.log(misMatch());
-console.log(match());
+console.log(match("a","b"));
+console.log(match(2,2));
 console.log(matchVeh(t,c));
- 
