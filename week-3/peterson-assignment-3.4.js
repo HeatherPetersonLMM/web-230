@@ -48,8 +48,19 @@ console.log("-- Displaying for loop --");
 var i = 6;  // test variable 6
 for (i = 0; i < 10; i++) {  //for loop that runs 10 numbers
     if (i === 6) {   //if statement for test variable to equal 6
-        console.log("6 does match " + i + "!");  // console log true
+        console.log("6 does match " + i + "!"); //console log a match
        } else {
-        console.log("6 does not match " + i + "!");
+        console.log("6 does not match " + i + "!"); //no match
 }
+}
+console.log("");
+console.log("-- Displaying while loop --");
+var i = 0;  // test variable begins at 0
+while (i < 10) { //while statement for test variables less than 10
+    if (i === 6) {   //if statement for test variable to equal 6
+        console.log("6 does match " + i + "!");  // console log a match
+       } else {
+        console.log("6 does not match " + i + "!"); // no match
+       }
+       i++; //variable range (important!)
 }
