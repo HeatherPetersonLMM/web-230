@@ -40,9 +40,17 @@ function match(a,b) {  //calls the match functions a and b
 
 function logMismatch() {  //calls the logMismatch functions a and b
     if (a !== b) {   //if a is not equal to b
-        console.log("False");
+        console.log("False");  // console log false
         } else {
-        console.log("True")  //else if, return true
+        console.log("True")  //else if, console log true
+        }
+    }
+
+function logMatch(a,a) {  //calls the logMatch functions a and b
+    if (a === a) {   //if a is equal to a
+         console.log("True");  // console log true
+        } else {
+        console.log("False")  //else if, console log false
         }
     }
 }
