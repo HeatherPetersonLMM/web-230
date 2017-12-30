@@ -45,8 +45,11 @@ var header = require('../header.js');
 
 // test variable
 console.log("-- Displaying for loop --");
-var i;
-for (i = 1; i < 10; i++) {
-    console.log("The number is " + i);
-    //console.log(i);
+var i = 6;  // test variable 6
+for (i = 0; i < 10; i++) {  //for loop that runs 10 numbers
+    if (i === 6) {   //if statement for test variable to equal 6
+        console.log("6 does match " + i + "!");  // console log true
+       } else {
+        console.log("6 does not match " + i + "!");
+}
 }
