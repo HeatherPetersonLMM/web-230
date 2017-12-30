@@ -44,3 +44,9 @@ var header = require('../header.js');
 */ 
 
 // test variable
+console.log("-- Displaying for loop --");
+var i;
+for (i = 1; i < 10; i++) {
+    console.log("The number is " + i);
+    //console.log(i);
+}
