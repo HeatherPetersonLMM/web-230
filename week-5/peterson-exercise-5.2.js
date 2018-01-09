@@ -33,10 +33,4 @@ foods.forEach(function(num) {
 });
 
 
-
-
-
-
-
-
 // end program
