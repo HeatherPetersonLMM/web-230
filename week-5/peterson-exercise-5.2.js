@@ -26,10 +26,11 @@ var header = require('../header.js');
  */
 
 // start program
+
 var foods = ["Pho", "Tacos", "Sushi", "Steak", "Hibachi"];  //An array of favorite foods
 var sum = 0;  // Start at 0
-foods.forEach(function(num) {
-    console.log(num)
+foods.forEach(function(num) {  //envokes each specified function
+    console.log(num)  //displays array elements, starting with the first
 });
 
 
