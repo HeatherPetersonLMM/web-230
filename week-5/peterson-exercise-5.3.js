@@ -26,7 +26,7 @@ var header = require('../header.js');
  */
 
 // start program
-var famousComposers = [
+var famousComposers = [     // Array-Like Object of 5 famous composers
     {
         firstName: 'Ludwig',
         lastName: 'Beethoven',
@@ -59,9 +59,9 @@ var famousComposers = [
     },
 ];
 
-
-
-
-
+    console.log("-- COMPOSERS --");  // display text of Composers
+famousComposers.forEach(function(composer){  // iteration through the forEach() method
+    console.log("Last Name: " + composer.lastName + ", " + "Genre: " + composer.genre + ", " + "Rating: " + composer.rating)
+});  //output of composers last names, genres, and ratings
 
 // end program
