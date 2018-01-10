@@ -23,7 +23,7 @@ if (dd<10) {
   }
   
   today = mm + '-' + dd + '-' + yyyy
-  var assignmentNum = "Exercise 5.3";
+  var assignmentNum = "Assignment 5.4";
   
   var programHeader = "\n" + myFirstName + " " + myLastName + "\n"
       + assignmentNum + "\nDate: " + today;
