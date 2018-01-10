@@ -52,37 +52,49 @@ Expected output:
 
 // start program
 
-var famousComposers = [
+var famousComposers = [     //Array-Like Object of ratings, composer, genre
     {
+        rating: '8',
+        composer: 'Beethoven',
+        genre: 'Clasical'
+        
+    },
+    {
+        rating: '10',
+        composer: 'Mozart',
+        genre: 'Clasical'
 
     },
     {
+        rating: '9',
+        composer: 'Bach',
+        genre: 'Clasical'
 
     },
     {
+        rating: '6',
+        composer: 'Haydn',
+        genre: 'Clasical'
 
     },
-    {
-
-    },
-    {
-
+    {   rating: '5',
+        composer: 'Schubert',
+        genre: 'Clasical'
     }
 ];
 
-var comnposersByRating = famousComposers.map(function(composer) {
+    console.log("-- COMPOSER BY RATING --");  //display text of ratings
+var comnposersByRating = famousComposers.map(function(composer) {  //iteration through the map() method
+    console.log("Rating: " + composer.rating);  // output of ratings
+    console.log("Composer: " + composer.composer);  //output of composers
+    console.log("");  // line break
 
 });
-
+    console.log("-- COMPOSER BY GENRE --");  //display text of genre
 var composersByGenre = famousComposers.map(function(composer) {
-
+    console.log("Genre: " + composer.genre);  //output of genres
+    console.log("Composer: " + composer.composer);  //output of composers
+    console.log("");
 });
-
-console.log("-- COMPOSER BY RATING --");
-
-
-console.log("-- COMPOSER BY GENRE --");
-
-
 
 // end program
