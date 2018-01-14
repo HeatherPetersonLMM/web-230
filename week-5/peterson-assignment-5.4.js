@@ -52,49 +52,57 @@ Expected output:
 
 // start program
 
-var famousComposers = [     //Array-Like Object of ratings, composer, genre
+
+
+var famousComposers = [     // Array-Like Object of 5 famous composers
     {
-        rating: '8',
-        composer: 'Beethoven',
-        genre: 'Clasical'
-        
+        firstName: 'Ludwig',
+        lastName: 'Beethoven',
+        genre:'Classical',
+        rating: '8'
     },
     {
-        rating: '10',
-        composer: 'Mozart',
-        genre: 'Clasical'
-
+        firstName: 'Johannes',
+        lastName: 'Mozart',
+        genre: 'Classical',
+        rating: '10'
     },
     {
-        rating: '9',
-        composer: 'Bach',
-        genre: 'Clasical'
-
+        firstName: 'Johann',
+        lastName: 'Bach',
+        genre:'Classical',
+        rating: '6'
     },
     {
-        rating: '6',
-        composer: 'Haydn',
-        genre: 'Clasical'
-
+        firstName:'Franz',
+        lastName:'Haydn',
+        genre: 'Classical',
+        rating: '6'
     },
-    {   rating: '5',
-        composer: 'Schubert',
-        genre: 'Clasical'
-    }
-];
+    {
+        firstName: 'Franz',
+        lastName:'Schubert',
+        genre: 'Classical',
+        rating: '5'
+    },
+]; 
 
-    console.log("-- COMPOSER BY RATING --");  //display text of ratings
-var comnposersByRating = famousComposers.map(function(composer) {  //iteration through the map() method
-    console.log("Rating: " + composer.rating);  // output of ratings
-    console.log("Composer: " + composer.composer);  //output of composers
-    console.log("");  // line break
-
+var composersByRating = famousComposers.map(function(composer) {  //map used to return the values of rating and lastName
+    return {rating: composer.rating, lastName: composer.lastName} // returns the value of ratings and lastNames
 });
-    console.log("-- COMPOSER BY GENRE --");  //display text of genre
-var composersByGenre = famousComposers.map(function(composer) {
-    console.log("Genre: " + composer.genre);  //output of genres
-    console.log("Composer: " + composer.composer);  //output of composers
-    console.log("");
+
+var composersByGenre = famousComposers.map(function(composer) {  //map used to return the values of genre and lastName
+    return {genre: composer.genre, lastName: composer.lastName}  //returns the value of genres and lastNames
+});
+
+console.log("-- COMPOSER BY RATING --");  // display text for ratings
+famousComposers.forEach(function(composer){  // iteration through the forEach() method
+    console.log("Rating: " + composer.rating + "\n" + "Composer: " + composer.lastName + "\n") //output of ratings and composers with \n breaks
+});
+
+console.log("-- COMPOSER BY GENRE --");  //display text for genres
+famousComposers.forEach(function(composer){  // iteration through the forEach() method
+    console.log("Genre: " + composer.genre + "\n" + "Composer: " + composer.lastName + "\n")  //output of genres and composers with \n breaks
 });
 
 // end program
