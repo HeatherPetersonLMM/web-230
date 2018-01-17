@@ -15,20 +15,17 @@ var header = require('../header.js');
 // start program
 
 
-try {
-    var x = 0;
-    var y = 1;
+try {  //runs from top of block to the bottom
+    var n = ["John","Kim","Helen","Frank","Beth","Heather"]; //array of names
+    var sum = 0;  //start at 0
 
-    var sum = y / x;
+    if (sum == 0) throw "Hello John!"; 
 
-    if (sum == Infinity) throw "DivideByZeroException";
+}   catch (err) { //block executed if, and only if, the try block throws exception
+    console.log("Catch clause: " + err); 
 
-    console.log(sum);
-
-} catch (err) {
-    console.log("Catch clause: " + err);
-} finally {
-    console.log("Finally clause reached: End of program!");
+}   finally {  //block contains statements that are always executed
+    console.log("Finally clause reached: End of program!"); 
 }
 
 // end program
