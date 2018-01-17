@@ -1,6 +1,16 @@
 var header = require('../header.js');
 
 /*
+============================================
+; Title:  Program Header
+; Author: Professor Krasso 
+; Date:   17 January 2018
+; Modified By: Heather Peterson
+; Description: Exercise 6.2 - Exception Handling
+;===========================================
+/*
+
+/*
  Expected output:
 
  FirstName LastName
