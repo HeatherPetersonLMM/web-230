@@ -23,13 +23,13 @@ var header = require('../header.js');
  */
 
 // start program
-
+var n = ["John","Kim","Helen","Frank","Beth","Heather"]; //array of names
 
 try {  //runs from top of block to the bottom
-    var n = ["John","Kim","Helen","Frank","Beth","Heather"]; //array of names
-    var sum = 0;  //start at 0
 
-    if (sum == 0) throw "Hello John!"; 
+    var sum = parseInt(n);  //run the variable n code
+
+    if (isNaN(sum)) throw "Hello John!"; //catch clause output
 
 }   catch (err) { //block executed if, and only if, the try block throws exception
     console.log("Catch clause: " + err); 
