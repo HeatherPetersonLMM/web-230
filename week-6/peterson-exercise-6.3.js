@@ -28,46 +28,7 @@ var ticket = {  //object literal for ticketing system with three fields and defa
     id: 1,
     name: "Sue Jefferson",
     requester: "Heather Peterson",
+}
 
-    get ticketId() {  //getter - passes no arguments
-
-        return this.id; //return the value of the property access expression
-
-    },
-
-    set ticketId(val) { //setter - passing the value of the ticketId
-
-        this.id = val; //returning the value of the setter
-
-    },
-
-    get ticketName() {
-
-        return this.name;
-
-    },
-
-    set ticketName(val) {
-
-        this.name = val;
-
-    },
-
-    get ticketRequester() {
-
-        return this.requester;
-
-    },
-
-    set ticketRequester(val) {
-
-        this.requester = val;
-
-    }
-
-};
-
-console.log("{id: " + ticket.ticketId + ", " + "name: " + ticket.ticketName + ", " + "requester: " + ticket.ticketRequester + "}"); //output in one concatenated string
-
-
-// end program
+console.log("{id: %s, name: %s, requester: %s}", ticket.id, ticket.name, ticket.requester); //output in one concatenated string
+    
