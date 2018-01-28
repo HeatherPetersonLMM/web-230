@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client-Side JavaScript</title>
+
+    <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+<script>
+    document.write("<h1>SHOPPING LIST v.1</h1>") =
+        "<table>" +
+        "<thead>" +
+        "<tr>" +
+    "<ol>Oranges, Apples, Pears, Limes</ol>" +
+    "/table>"
+</script>
+            
+
+<script>
+    document.write("<h1>SHOPPING LIST v.2</h1>") 
+</script>
+
+<h1 id="bar"></h1>
+
+<div id="list"></div>
+<script>
+    document.getElementById('list').innerHTML =
+        "<table>" +
+        "<th>Id</th>" + "<th>Item</th>" +
+        "</tr1>" +
+        "</thead>" +
+        "<tbody>" +
+        "<tr><td>1</td></tr>" + "<tr><td></td></tr>" +
+        "<tr><td>2</td></tr>" +
+        "<tr><td>3</td></tr>" +
+        "</tbody>" +
+        "</table>"
+</script>
+
+<h1 id="tar"></h1>
+
+<script>
+    var h1 = document.getElementById('tar');
+    h1.insertAdjacentHTML('afterbegin', 'Hello World!');
+</script>
+
+
+</body>
+</html>
