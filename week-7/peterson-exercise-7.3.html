@@ -10,30 +10,23 @@
 
 <script>
     document.write("<h1>SHOPPING LIST v.1</h1>");
-    function Employee(id, firstName, lastName, title) //object function Employee with 4 parameters
-{
-    this.id = id;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.title = title;
-}
-
-var employees = [];  //an employees array with 5 employee objects
-
-employees[0] = new Employee(01, "Thomas", "Edison", "Software Engineer");
-employees[1] = new Employee(02, "Benjamin", "Franklin", "Programmer");
-employees[2] = new Employee(03, "Nikola", "Tesla", "Project Manager");
-employees[3] = new Employee(04, "Charles", "Babbage", "Product Manager");
-employees[4] = new Employee(05, "Alexander", "Bell", "Business Analyst");
-
-for (var i = 0; i < employees.length; i++)  //using for-loop to iterate 
-{
-    var emp = employees[i];
-
-    console.log(emp.id + " " + emp.firstName + " " + emp.lastName + " " + emp.title)  //output results
-}
 </script>
-            
+
+<script>
+    document.write(
+        "<table>" +
+        "<tbody>" +
+        "<ol>" +
+            "<li>Oranges</li>" +
+            "<li>Apples</li>" +
+            "<li>Pears</li>" +
+            "<li>Limes</li>" +
+            "<li>Lemons</li>" +
+        "</ol>" +
+        "</tbody>" +
+        "</table>")
+</script>
+         
 
 <script>
     document.write("<h1>SHOPPING LIST v.2</h1>") 
@@ -45,13 +38,15 @@ for (var i = 0; i < employees.length; i++)  //using for-loop to iterate
 <script>
     document.getElementById('list').innerHTML =
         "<table>" +
-        "<th>Id</th>,,<th>Item</th>" +
+        "<th>Id</th><th>Item</th>" +
         "</tr1>" +
         "</thead>" +
         "<tbody>" +
-        "<tr><td>1</td></tr>" + "<tr><td></td></tr>" +
-        "<tr><td>2</td></tr>" +
-        "<tr><td>3</td></tr>" +
+        "<tr><td>1</td><td>Oranges</td></tr>" +
+        "<tr><td>2</td><td>Apples</td></tr>" +
+        "<tr><td>3</td><td>Pears</td></tr>" +
+        "<tr><td>4</td><td>Limes</td></tr>" +
+        "<tr><td>5</td><td>Lemons</td></tr>" +
         "</tbody>" +
         "</table>"
 </script>
@@ -60,7 +55,7 @@ for (var i = 0; i < employees.length; i++)  //using for-loop to iterate
 
 <script>
     var h1 = document.getElementById('tar');
-    h1.insertAdjacentHTML('afterbegin', 'Hello World!');
+    h1.insertAdjacentHTML('afterbegin', 'By Heather Peterson');
 </script>
 
 
