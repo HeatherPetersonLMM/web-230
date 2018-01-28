@@ -9,12 +9,29 @@
 <body>
 
 <script>
-    document.write("<h1>SHOPPING LIST v.1</h1>") =
-        "<table>" +
-        "<thead>" +
-        "<tr>" +
-    "<ol>Oranges, Apples, Pears, Limes</ol>" +
-    "/table>"
+    document.write("<h1>SHOPPING LIST v.1</h1>");
+    function Employee(id, firstName, lastName, title) //object function Employee with 4 parameters
+{
+    this.id = id;
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.title = title;
+}
+
+var employees = [];  //an employees array with 5 employee objects
+
+employees[0] = new Employee(01, "Thomas", "Edison", "Software Engineer");
+employees[1] = new Employee(02, "Benjamin", "Franklin", "Programmer");
+employees[2] = new Employee(03, "Nikola", "Tesla", "Project Manager");
+employees[3] = new Employee(04, "Charles", "Babbage", "Product Manager");
+employees[4] = new Employee(05, "Alexander", "Bell", "Business Analyst");
+
+for (var i = 0; i < employees.length; i++)  //using for-loop to iterate 
+{
+    var emp = employees[i];
+
+    console.log(emp.id + " " + emp.firstName + " " + emp.lastName + " " + emp.title)  //output results
+}
 </script>
             
 
@@ -28,7 +45,7 @@
 <script>
     document.getElementById('list').innerHTML =
         "<table>" +
-        "<th>Id</th>" + "<th>Item</th>" +
+        "<th>Id</th>,,<th>Item</th>" +
         "</tr1>" +
         "</thead>" +
         "<tbody>" +
