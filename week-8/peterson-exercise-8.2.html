@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic HTML</title>
+
+    <link rel="stylesheet" href="../site.css">
+
+</head>
+<body>
+
+<div id="letters"></div> 
+
+<script>
+    var letters = ["Oranges", "Apples", "Pears", "Limes", "Lemons"]; 
+    var out = "<h2>Shopping List</h2><ol>"; // calls header and ORDERED list
+    for (var x = 0; x < letters.length; x++) {  //iterate over the collection
+        out += "<li>" + letters[x] + "</li>";  //string variable out appends new list entry
+    }
+    out += "</ol>";  //completed out and ORDERED list
+    document.getElementById('letters').innerHTML = out; // innerHTML function is assigned the string variable out
+</script>
+
+<h4 id="attribution"></h4> 
+
+<script>
+    var h4 = document.getElementById('attribution');
+    h4.insertAdjacentHTML('afterbegin', 'Heather Peterson 1-29-18 - Exercise 8.2' ,);  //final header
+</script>
+
+</body>
+</html>
